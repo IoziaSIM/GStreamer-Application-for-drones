@@ -21,6 +21,6 @@ In the "path" directory, during the execution, the sender will create "ploss.txt
 
 If you have to modify some plug-ins, after always run "ninja -C build".
 
-If you have to modify IP address, modify the first lines of "sender.py", the IP addresses of "receiver.sh" and the IP address for the bind function in "rtpstorage.c" (remember to run "ninja -C build after).
+If you have to modify IP address, modify the first lines of "sender.py", the IP addresses of "receiver.sh" and the IP address for the bind function in "rtpstorage.c" (remember to run "ninja -C build" after).
 
 In order to search the changes in the modified plug-ins, search the word "changes" in the file (except for "gstroundrobin.c", that is almost all new).
